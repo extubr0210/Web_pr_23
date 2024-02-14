@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Лабораторная 5</title>
+	<meta name="description" content="Страница асоциированная с выполнением 5й лабораторной по вэб программированию">
+	<link rel="stylesheet" href="../Стили/стили общие.css">
+	<link rel="stylesheet" href="../Стили/Лабораторная 5 стили.css">
+
+</head>
+<body>
+	<header>
+		<h2>Страница с лабораторной 5</h2>
+		<a href="../Стартовая страница.html">Обратно на стартовую страницу</a>
+	</header><br><br>
+
+	<main>
+		<p>Пункт 2. Форма.</p>
+
+		<form onSubmit=return false  id="frm1">
+			<div><label for="number_frm_form">Введите номер который увидите в алерте (от 1 до 12)</label>
+			<input type="number" name="number_frm_form" min="1" max="12" />
+			</div>
+			<div><label for="added_text">Введенная запись(до 40 символов) появится в таблице ниже.</label>
+			<input type="text" name="added_text" maxlength="40" />
+			</div>
+			<div><input type="submit" value="Submit-кнопка"/>
+			</div>
+		</form>
+
+		<div id="tabl1" class="editbltbl">Здесь могло быть пусто.<p>111</p><p>222</p><p>333</p></div>
+
+	</main>
+
+		<br><br>
+	<footer>
+
+		<p>Здесь находиться информация о времени загрузки страницы. Потому что лабораторная 4.</p>
+		<p id="ftd1">Пусто.<p>
+		<script src="../Скрипты/Лабораторная 4 скрипт время загрузки в футере.js"></script>
+	</footer>
+
+		<script src="../Скрипты/Лабораторная 5 скрипты.js"></script>
+</body>
+</html>

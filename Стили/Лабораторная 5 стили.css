@@ -1,0 +1,5 @@
+.editbltbl{
+background-color: rgb(220,220,220);
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
