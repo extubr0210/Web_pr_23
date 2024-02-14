@@ -1,9 +1,11 @@
 h3 {
-color: gray;
+    color: gray;
 }
+
 footer {
-background-color: rgb(200,200,200);
+    background-color: rgb(200,200,200);
 }
+
 a:hover{
-color: gold;
+    color: gold;
 }
