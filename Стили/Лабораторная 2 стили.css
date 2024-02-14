@@ -1,50 +1,65 @@
 #лаб2_пункт2_1{
-border: red 2px solid;
+    border: red 2px solid;
 }
+
 #лаб2_пункт2_2{
-border:solid 1px;
-padding:30px 10px;
-margin: 10px 10px 15px 30px;
+    border:solid 1px;
+    padding:30px 10px;
+    margin: 10px 10px 15px 30px;
 }
+
 #лаб2_пункт2_3{
-font-family:"Comic Sans MS";
+    font-family:"Comic Sans MS";
 }
+
 #лаб2_пункт5_1{
-background-color: rgb(100,200,100);
+    background-color: rgb(100,200,100);
 }
+
 #лаб2_пункт5_2{
-box-shadow: 20px 7px 7px rgb(80,80,200);
+    box-shadow: 20px 7px 7px rgb(80,80,200);
 }
+
 #лаб2_пункт6_1{
-font-size: 130%;
+    font-size: 130%;
 }
+
 #лаб2_пункт6_2{
-line-height:420%;
+    line-height:420%;
 }
+
 #лаб2_пункт6_3{
-font-family:"Comic Sans MS";
+    font-family:"Comic Sans MS";
 }
+
 #лаб2_пункт6_4{
-font-weight: bold;
+    font-weight: bold;
 }
+
 #лаб2_пункт6_5_1{
-text-align: end;
+   text-align: end;
 }
+
 #лаб2_пункт6_5_2{
-vertical-align: bottom;
+    vertical-align: bottom;
 }
+
 #лаб2_пункт6_6_2{
-color: rgb(120,120,50);
+    color: rgb(120,120,50);
 }
+
 #лаб2_пункт6_7{
-text-indent: 10%;
+    text-indent: 10%;
 }
+
 #лаб2_пункт6_10{
-text-decoration: underline brown;
+    text-decoration: underline brown;
 }
+
 #лаб2_пункт6_10_1{
-text-decoration: line-through;
+    text-decoration: line-through;
 }
+
 #лаб2_пункт6_11{
-text-transform:capitalize;
+    text-transform:capitalize;
 }
