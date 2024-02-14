@@ -1,48 +1,56 @@
 #лаб3_пункт0_пример{
-display: grid;
-grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
+
 #лаб3_пункт1_1{
-color: red;
-@media screen and (min-width: 600px){
-color: green;
-};
-@media screen and (min-width: 1000px){
-color: blue;
-};
-@media screen and (min-width: 1200px){
-color: orange;
-};
+    color: red;
+    @media screen and (min-width: 600px){
+        color: green;
+    };
+    @media screen and (min-width: 1000px){
+        color: blue;
+    };
+    @media screen and (min-width: 1200px){
+        color: orange;
+    };
 }
+
 #лаб3_пункт1_2{
-@media screen and (max-width: 600px){
-display: none;
+    @media screen and (max-width: 600px){
+        display: none;
+    }
 }
-}
+
 #лаб3_пункт2_2{
-position: relative;
-left: 25%;
-bottom: 45px;
+    position: relative;
+    left: 25%;
+    bottom: 45px;
 }
+
 #лаб3_пункт2_3{
-position: absolute;
-top: 50%;
-right: 10px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
 }
+
 #лаб3_пункт2_4{
-position: fixed;
-top: 70%;
-left 60px;
+    position: fixed;
+    top: 70%;
+    left 60px;
 }
+
 #лаб3_пункт2_5{
-position: sticky;
-top: 40%;
-left: 30px;
+    position: sticky;
+    top: 40%;
+    left: 30px;
 }
+
 #лаб3_пункт3{
-display: grid;
-grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
+
 #лаб3_пункт3>div:nth-child(8n+5), #лаб3_пункт3>div:nth-child(8n+6), #лаб3_пункт3>div:nth-child(8n+7), #лаб3_пункт3>div:nth-child(8n+8){
-background-color: rgb(200,200,200);
+    background-color: rgb(200,200,200);
 }
